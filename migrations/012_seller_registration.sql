@@ -1,0 +1,1 @@
+-- Build20 migration 012 seller_registration

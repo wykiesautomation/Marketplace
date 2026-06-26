@@ -1,0 +1,1 @@
+const r=require('express').Router();const{readDb}=require('../db');r.get('/products',(req,res)=>res.json((readDb().products||[]).filter(p=>p.status==='active'&&p.approvalStatus==='approved')));module.exports=r;
