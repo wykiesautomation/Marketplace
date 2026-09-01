@@ -1,5 +1,5 @@
 {
-  "version": 24,
+  "version": 26,
   "collections": {
     "users": {
       "primaryKey": "id"
@@ -47,6 +47,9 @@
       "primaryKey": "id"
     },
     "listingReports": {
+      "primaryKey": "id"
+    },
+    "listingMessages": {
       "primaryKey": "id"
     }
   }

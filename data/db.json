@@ -1,7 +1,7 @@
 {
   "meta": {
-    "schemaVersion": 24,
-    "build": "Build24-static-demo-cache-fix",
+    "schemaVersion": 26,
+    "build": "Build26-live-communication-seo-safety",
     "adapter": "json"
   },
   "settings": {
@@ -29,7 +29,11 @@
       ".msi",
       ".scr",
       ".ps1"
-    ]
+    ],
+    "demoListingsEnabled": true,
+    "listingExpiryDays": 60,
+    "sellerContactEmail": "marketplace@wykiesautomation.co.za",
+    "marketplacePublicName": "Software Tools Marketplace"
   },
   "users": [
     {
@@ -137,5 +141,6 @@
       "approvedBy": "u_admin_1"
     }
   ],
-  "listingReports": []
+  "listingReports": [],
+  "listingMessages": []
 }
