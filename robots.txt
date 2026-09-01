@@ -1,3 +1,11 @@
 User-agent: *
 Allow: /
-Sitemap: https://examtestpaper.co.za/sitemap.xml
+Disallow: /admin-
+Disallow: /seller-dashboard.html
+Disallow: /seller-login.html
+Disallow: /seller-upload.html
+Disallow: /download.html
+Disallow: /order-status.html
+Disallow: /payment-success.html
+Disallow: /payment-cancel.html
+Sitemap: https://marketplace.wykiesautomation.co.za/sitemap.xml
