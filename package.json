@@ -1,6 +1,6 @@
 {
-  "name": "software-tools-marketplace-build22-unified-homepage",
-  "version": "22.0.0",
+  "name": "software-tools-marketplace-build23-demo-homepage",
+  "version": "23.0.0",
   "private": true,
   "main": "server.js",
   "scripts": {

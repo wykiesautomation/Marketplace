@@ -1,7 +1,7 @@
 {
   "meta": {
-    "schemaVersion": 22,
-    "build": "Build22-unified-homepage-navigation",
+    "schemaVersion": 23,
+    "build": "Build23-demo-homepage",
     "adapter": "json"
   },
   "settings": {
