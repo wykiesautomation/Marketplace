@@ -1,7 +1,7 @@
 {
   "meta": {
-    "schemaVersion": 23,
-    "build": "Build23-demo-homepage",
+    "schemaVersion": 24,
+    "build": "Build24-static-demo-cache-fix",
     "adapter": "json"
   },
   "settings": {
