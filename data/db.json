@@ -1,7 +1,7 @@
 {
   "meta": {
-    "schemaVersion": 21,
-    "build": "Build21-physical-listings-services-images",
+    "schemaVersion": 22,
+    "build": "Build22-unified-homepage-navigation",
     "adapter": "json"
   },
   "settings": {
