@@ -1,5 +1,22 @@
-# GitHub Upload
+# Wykies Automation Marketplace REV45 GitHub Frontend
 
-This is the complete Wykies Automation Software Marketplace build with 21 supplied product images built into the existing marketplace design.
+Clean GitHub Pages package.
 
-Extract the ZIP and upload all files and folders directly to the GitHub repository root.
+Included:
+- Public software catalogue and product detail pages
+- AssetTrack 360 live platform card
+- 21 real software products
+- 22 product/platform images
+- Existing seller and admin frontend pages
+- CNAME, robots, sitemap and Bing verification
+
+Removed:
+- SQL migrations
+- Node.js server and src backend
+- package.json and server scripts
+- database seed files
+- audit dumps and build documentation
+- duplicate product images
+- physical marketplace and towing pages
+
+Upload every file and folder in this package to the GitHub repository root.
