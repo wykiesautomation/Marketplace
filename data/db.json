@@ -99,6 +99,34 @@
       "packageFileId": "",
       "packagePath": "",
       "shortDescription": "Embedded project package with docs and firmware."
+    },
+    {
+      "id": "p_003",
+      "sellerId": "u_seller_1",
+      "name": "ABB Cabinet Engineering Studio",
+      "slug": "abb-cabinet-engineering-studio",
+      "price": 2499,
+      "platform": "Windows",
+      "type": "Electrical Engineering Studio",
+      "status": "active",
+      "approvalStatus": "approved",
+      "packageFileId": "",
+      "packagePath": "",
+      "shortDescription": "ABB-focused cubicle, cabinet and electrical engineering studio for structured panel design and documentation."
+    },
+    {
+      "id": "p_004",
+      "sellerId": "u_seller_1",
+      "name": "Rockwell Cabinet & Chassis Studio",
+      "slug": "rockwell-cabinet-chassis-studio",
+      "price": 2499,
+      "platform": "Windows",
+      "type": "Electrical Engineering Studio",
+      "status": "active",
+      "approvalStatus": "approved",
+      "packageFileId": "",
+      "packagePath": "",
+      "shortDescription": "Allen-Bradley chassis, cabinet, module and internal-component engineering for structured panel design and documentation."
     }
   ],
   "fileRecords": [],
