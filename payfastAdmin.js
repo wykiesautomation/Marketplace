@@ -1,0 +1,1 @@
+const r=require('express').Router();const{requireRole}=require('../auth');const{readDb}=require('../db');r.get('/diagnostics',requireRole('admin'),(req,res)=>res.json(readDb().payfastDiagnostics||[]));module.exports=r;
