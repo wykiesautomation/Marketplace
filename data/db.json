@@ -84,11 +84,11 @@
       "category": "industrial machine vision",
       "status": "active",
       "productKind": "software",
-      "desc": "A modular industrial machine-vision platform for automated material inspection, dimensional measurement, machine monitoring and safety-focused visual detection. VisionEdge unifies camera management, controlled inspection workflows, production evidence and OPC UA integration in one local platform.",
+      "desc": "VisionEdge uses industrial cameras and production data to inspect material, measure products and monitor machine movement. Camera setup, model training, PLC integration, diagnostics and production evidence are managed from one controlled platform.",
       "image": "assets/products/VisionEdge_Production_Intelligence_Studio.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A modular industrial machine-vision platform for automated material inspection, dimensional measurement, machine monitoring and safety-focused visual detection. VisionEdge unifies camera management, controlled inspection workflows, production evidence and OPC UA integration in one local platform.",
+      "shortDescription": "Industrial machine vision for inspection, measurement, movement monitoring and controlled production evidence.",
       "salesMode": "Site Assessment",
       "featured": true,
       "createdAt": "2026-09-02T18:55:00+02:00",
@@ -99,18 +99,18 @@
       "id": "p_023",
       "name": "PROFIBUS Connector: GSD Engineering Studio",
       "slug": "profibus-connector-gsd-engineering-studio",
-      "price": 12999,
+      "price": 2499,
       "platform": "Windows / PROFIBUS / API",
       "seller": "Wykies Automation",
-      "type": "Industrial Communications",
-      "category": "industrial communications",
+      "type": "Industrial Network Engineering",
+      "category": "industrial network engineering",
       "status": "active",
       "productKind": "software",
-      "desc": "A professional PROFIBUS engineering platform for importing, validating and analysing GSD device files, reviewing module structures and preparing controlled device configurations. Simplify legacy network engineering with structured diagnostics, clear device information and reusable project workflows.",
+      "desc": "A safe engineering workspace for building and documenting PROFIBUS networks. Configure masters, gateways and field devices, work with GSD definitions, review process values and investigate communication quality without an uncontrolled physical write path.",
       "image": "assets/products/PROFIBUS_Connector_GSD_Engineering_Studio.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A professional PROFIBUS engineering platform for importing, validating and analysing GSD device files, reviewing module structures and preparing controlled device configurations. Simplify legacy network engineering with structured diagnostics, clear device information and reusable project workflows.",
+      "shortDescription": "Safe PROFIBUS network, GSD, commissioning and diagnostic engineering.",
       "salesMode": "Request Trial",
       "featured": true,
       "createdAt": "2026-09-02T18:55:00+02:00",
@@ -121,18 +121,18 @@
       "id": "p_024",
       "name": "Universal Modbus Device Engineering Platform",
       "slug": "universal-modbus-device-engineering-platform",
-      "price": 14999,
+      "price": 2999,
       "platform": "Windows / Modbus TCP / Modbus RTU",
       "seller": "Wykies Automation",
-      "type": "Industrial Communications",
-      "category": "industrial communications",
+      "type": "Industrial Protocol Engineering",
+      "category": "industrial protocol engineering",
       "status": "active",
       "productKind": "software",
-      "desc": "A professional Modbus engineering platform for TCP and RTU communication, device discovery, register decoding and controlled device-profile development. Configure, test and document Modbus equipment through one structured workspace with practical diagnostics and a 30-day trial.",
+      "desc": "Configure Modbus TCP and RTU connections, register devices, build register maps, decode data and monitor bounded FC1 to FC4 read-only values. Includes templates, commissioning evidence, history, monitoring and field acceptance with a 30-day trial limited to two devices.",
       "image": "assets/products/Universal_Modbus_Device_Engineering_Platform.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A professional Modbus engineering platform for TCP and RTU communication, device discovery, register decoding and controlled device-profile development. Configure, test and document Modbus equipment through one structured workspace with practical diagnostics and a 30-day trial.",
+      "shortDescription": "Modbus TCP and RTU device, register, commissioning and read-only monitoring engineering.",
       "salesMode": "30-Day Trial / Buy Licence",
       "featured": true,
       "trialDays": 30,
@@ -152,11 +152,11 @@
       "type": "Security & Embedded",
       "category": "security & embedded",
       "status": "active",
-      "desc": "A professional 12-zone hybrid alarm platform designed for secure provisioning, continuous input monitoring and dependable alarm control. Clear status, event visibility and practical Wi-Fi or GSM workflows support reliable local operation and backup communication.",
+      "desc": "A professional hybrid alarm platform for secure local operation, configuration, event visibility and field-ready alarm management.",
       "image": "assets/products/12ch Alarm.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A professional 12-zone hybrid alarm platform designed for secure provisioning, continuous input monitoring and dependable alarm control. Clear status, event visibility and practical Wi-Fi or GSM workflows support reliable local operation and backup communication."
+      "shortDescription": "A professional hybrid alarm platform for secure local operation, configuration, event visibility and field-ready alarm management."
     },
     {
       "id": "p_002",
@@ -168,11 +168,11 @@
       "type": "Engineering Software",
       "category": "engineering software",
       "status": "active",
-      "desc": "A streamlined production interface for operating and monitoring practical 3D-printer systems. Manage machine setup, temperature conditions, print jobs, operating status and workshop diagnostics through one clean, structured control environment.",
+      "desc": "A clean production interface for practical 3D-printer operation, machine setup, job control and workshop monitoring.",
       "image": "assets/products/3dprinter.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A streamlined production interface for operating and monitoring practical 3D-printer systems. Manage machine setup, temperature conditions, print jobs, operating status and workshop diagnostics through one clean, structured control environment."
+      "shortDescription": "A clean production interface for practical 3D-printer operation, machine setup, job control and workshop monitoring."
     },
     {
       "id": "p_003",
@@ -184,11 +184,11 @@
       "type": "Power & Embedded",
       "category": "power & embedded",
       "status": "active",
-      "desc": "A professional 7-stage battery-charger control and testing platform for monitoring voltage, current, temperature and charging progress. Configure every charging stage, review protection conditions, diagnose abnormal operation and maintain structured technical test records.",
+      "desc": "A focused charger-control workspace for battery monitoring, configuration, diagnostics and technical test workflows.",
       "image": "assets/products/Charger.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A professional 7-stage battery-charger control and testing platform for monitoring voltage, current, temperature and charging progress. Configure every charging stage, review protection conditions, diagnose abnormal operation and maintain structured technical test records."
+      "shortDescription": "A focused charger-control workspace for battery monitoring, configuration, diagnostics and technical test workflows."
     },
     {
       "id": "p_004",
@@ -200,11 +200,11 @@
       "type": "Industrial Automation",
       "category": "industrial automation",
       "status": "active",
-      "desc": "A capability-aware engineering studio for configuring supported controller boards, assigning safe and valid I/O, selecting compatible sensors and validating firmware. Real board capabilities, electrical limits and communication support help prevent invalid device builds before deployment.",
+      "desc": "A capability-aware engineering studio for verified board profiles, safe I/O selection, firmware compatibility and device commissioning.",
       "image": "assets/products/Device Engineering Studio.png",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A capability-aware engineering studio for configuring supported controller boards, assigning safe and valid I/O, selecting compatible sensors and validating firmware. Real board capabilities, electrical limits and communication support help prevent invalid device builds before deployment."
+      "shortDescription": "A capability-aware engineering studio for verified board profiles, safe I/O selection, firmware compatibility and device commissioning."
     },
     {
       "id": "p_005",
@@ -216,11 +216,11 @@
       "type": "Automotive Engineering",
       "category": "automotive engineering",
       "status": "active",
-      "desc": "An integrated ECU and transmission-control test-bench suite for serial diagnostics, simulated vehicle signals, configuration review and controlled automotive testing. Monitor operating values, investigate faults and document results through one structured development environment.",
+      "desc": "An integrated ECU and TCU test-bench suite for serial diagnostics, configuration, controlled testing and vehicle-system development.",
       "image": "assets/products/ECU_TCU.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "An integrated ECU and transmission-control test-bench suite for serial diagnostics, simulated vehicle signals, configuration review and controlled automotive testing. Monitor operating values, investigate faults and document results through one structured development environment."
+      "shortDescription": "An integrated ECU and TCU test-bench suite for serial diagnostics, configuration, controlled testing and vehicle-system development."
     },
     {
       "id": "p_006",
@@ -232,11 +232,11 @@
       "type": "Monitoring & Operations",
       "category": "monitoring & operations",
       "status": "active",
-      "desc": "A practical monitoring solution for freezers, cold rooms and temperature-sensitive storage facilities. Clear temperature trends, equipment status and alarm visibility help identify refrigeration problems early and protect valuable products, materials and stock.",
+      "desc": "A practical freezer and cold-storage monitoring solution with clear status, alarms and operational visibility.",
       "image": "assets/products/Freezer.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A practical monitoring solution for freezers, cold rooms and temperature-sensitive storage facilities. Clear temperature trends, equipment status and alarm visibility help identify refrigeration problems early and protect valuable products, materials and stock."
+      "shortDescription": "A practical freezer and cold-storage monitoring solution with clear status, alarms and operational visibility."
     },
     {
       "id": "p_007",
@@ -248,11 +248,11 @@
       "type": "Access Control",
       "category": "access control",
       "status": "active",
-      "desc": "A complete gate and garage-control platform with a responsive local HMI, secure configuration and clearly separated Live and Simulation operation. Monitor movement, manage access, apply optional position feedback and review controller status from one dependable interface.",
+      "desc": "A complete gate-control platform with responsive local HMI, live operation, configuration and controlled access workflows.",
       "image": "assets/products/GateControl.PNG",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A complete gate and garage-control platform with a responsive local HMI, secure configuration and clearly separated Live and Simulation operation. Monitor movement, manage access, apply optional position feedback and review controller status from one dependable interface."
+      "shortDescription": "A complete gate-control platform with responsive local HMI, live operation, configuration and controlled access workflows."
     },
     {
       "id": "p_008",
@@ -264,11 +264,11 @@
       "type": "Engineering Software",
       "category": "engineering software",
       "status": "active",
-      "desc": "A structured hardware engineering and test-bench environment for registering boards, validating physical I/O and verifying equipment before field deployment. Record firmware identity, test results, diagnostics and commissioning evidence in one controlled technical workspace.",
+      "desc": "A structured hardware test-bench environment for equipment checks, I/O validation, diagnostics and commissioning records.",
       "image": "assets/products/Hardware Bench.png",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A structured hardware engineering and test-bench environment for registering boards, validating physical I/O and verifying equipment before field deployment. Record firmware identity, test results, diagnostics and commissioning evidence in one controlled technical workspace."
+      "shortDescription": "A structured hardware test-bench environment for equipment checks, I/O validation, diagnostics and commissioning records."
     },
     {
       "id": "p_009",
@@ -280,11 +280,11 @@
       "type": "Industrial Automation",
       "category": "industrial automation",
       "status": "active",
-      "desc": "A professional engineering workspace for creating clear, consistent and operator-friendly industrial HMI and SCADA interfaces. Build process displays, equipment faceplates, alarm views, reusable objects and practical operator workflows for modern automation projects.",
+      "desc": "A professional workspace for designing clear industrial HMI and SCADA screens, reusable objects and practical operator workflows.",
       "image": "assets/products/HMI & Scada Studio.png",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A professional engineering workspace for creating clear, consistent and operator-friendly industrial HMI and SCADA interfaces. Build process displays, equipment faceplates, alarm views, reusable objects and practical operator workflows for modern automation projects."
+      "shortDescription": "A professional workspace for designing clear industrial HMI and SCADA screens, reusable objects and practical operator workflows."
     },
     {
       "id": "p_010",
@@ -296,11 +296,11 @@
       "type": "Process Engineering",
       "category": "process engineering",
       "status": "active",
-      "desc": "A comprehensive loop-readiness, instrument-validation and PID-advisory platform for practical process-control improvement. Validate field signals, assess controller behaviour, identify performance problems and prepare evidence-based recommendations for safer, more efficient loop optimisation.",
+      "desc": "A loop-readiness, instrument-validation and PID-advisory platform for practical control-loop assessment and improvement.",
       "image": "assets/products/Looppilot.png",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A comprehensive loop-readiness, instrument-validation and PID-advisory platform for practical process-control improvement. Validate field signals, assess controller behaviour, identify performance problems and prepare evidence-based recommendations for safer, more efficient loop optimisation."
+      "shortDescription": "A loop-readiness, instrument-validation and PID-advisory platform for practical control-loop assessment and improvement."
     },
     {
       "id": "p_011",
@@ -312,11 +312,11 @@
       "type": "Access Control",
       "category": "access control",
       "status": "active",
-      "desc": "A compact GSM gate and garage remote solution for authorised call or SMS-based access without depending on local Wi-Fi. Supports controlled operation, authorised users, optional open and close position feedback and Tamper at Box monitoring.",
+      "desc": "A GSM gate and garage remote package with authorised access, status control and field-ready firmware workflows.",
       "image": "assets/products/nanaogate.PNG",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A compact GSM gate and garage remote solution for authorised call or SMS-based access without depending on local Wi-Fi. Supports controlled operation, authorised users, optional open and close position feedback and Tamper at Box monitoring."
+      "shortDescription": "A GSM gate and garage remote package with authorised access, status control and field-ready firmware workflows."
     },
     {
       "id": "p_012",
@@ -328,11 +328,11 @@
       "type": "OT Governance",
       "category": "ot governance",
       "status": "active",
-      "desc": "A modular OT governance and assurance platform for building accurate asset inventories, collecting configuration evidence and strengthening audit readiness. Track technical risks, lifecycle concerns, assurance findings and accountable follow-up across industrial environments.",
+      "desc": "A modular OT assurance platform for asset inventory, audit readiness, governance evidence and operational risk visibility.",
       "image": "assets/products/OT Asset Assurance.png",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A modular OT governance and assurance platform for building accurate asset inventories, collecting configuration evidence and strengthening audit readiness. Track technical risks, lifecycle concerns, assurance findings and accountable follow-up across industrial environments."
+      "shortDescription": "A modular OT assurance platform for asset inventory, audit readiness, governance evidence and operational risk visibility."
     },
     {
       "id": "p_013",
@@ -344,11 +344,11 @@
       "type": "OT & Network Tools",
       "category": "ot & network tools",
       "status": "active",
-      "desc": "A controlled, read-only industrial network discovery utility designed to improve visibility across OT environments. Identify connected devices, capture technical asset information and support structured engineering reviews without making uncontrolled changes to automation equipment.",
+      "desc": "A focused OT discovery and scanning utility for controlled network visibility, device identification and technical review.",
       "image": "assets/products/OT Scanner.png",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A controlled, read-only industrial network discovery utility designed to improve visibility across OT environments. Identify connected devices, capture technical asset information and support structured engineering reviews without making uncontrolled changes to automation equipment."
+      "shortDescription": "A focused OT discovery and scanning utility for controlled network visibility, device identification and technical review."
     },
     {
       "id": "p_014",
@@ -360,11 +360,11 @@
       "type": "Workshop Automation",
       "category": "workshop automation",
       "status": "active",
-      "desc": "A practical control and monitoring interface for plasma-cutter setup, operation and workshop production. Manage operating parameters, job workflows, machine status and essential safety checks through one clear and accessible control environment.",
+      "desc": "A practical control and monitoring interface for plasma-cutter setup, job workflows and workshop operation.",
       "image": "assets/products/Plasma Cutter.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A practical control and monitoring interface for plasma-cutter setup, operation and workshop production. Manage operating parameters, job workflows, machine status and essential safety checks through one clear and accessible control environment."
+      "shortDescription": "A practical control and monitoring interface for plasma-cutter setup, job workflows and workshop operation."
     },
     {
       "id": "p_015",
@@ -376,11 +376,11 @@
       "type": "Process Engineering",
       "category": "process engineering",
       "status": "active",
-      "desc": "A powerful process and instrumentation analysis workspace for examining signals, trends and operating events. Compare process behaviour, investigate abnormal conditions and convert industrial data into structured engineering evidence for troubleshooting and technical review.",
+      "desc": "A process and instrumentation analysis workspace for engineering review, operational visibility and structured investigation.",
       "image": "assets/products/ProcessScope Studio.png",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A powerful process and instrumentation analysis workspace for examining signals, trends and operating events. Compare process behaviour, investigate abnormal conditions and convert industrial data into structured engineering evidence for troubleshooting and technical review."
+      "shortDescription": "A process and instrumentation analysis workspace for engineering review, operational visibility and structured investigation."
     },
     {
       "id": "p_016",
@@ -392,11 +392,11 @@
       "type": "Industrial Automation",
       "category": "industrial automation",
       "status": "active",
-      "desc": "A capability-aware Rockwell engineering studio for preparing controller-aligned I/O structures, reusable automation objects and practical project deliverables. Each build respects the selected controller family and software revision to reduce incompatible engineering selections.",
+      "desc": "A capability-aware Rockwell engineering studio for controller-aligned blocks, I/O structures and buildable automation deliverables.",
       "image": "assets/products/Rockwell Build Studio.png",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A capability-aware Rockwell engineering studio for preparing controller-aligned I/O structures, reusable automation objects and practical project deliverables. Each build respects the selected controller family and software revision to reduce incompatible engineering selections."
+      "shortDescription": "A capability-aware Rockwell engineering studio for controller-aligned blocks, I/O structures and buildable automation deliverables."
     },
     {
       "id": "p_017",
@@ -408,27 +408,27 @@
       "type": "Security Software",
       "category": "security software",
       "status": "active",
-      "desc": "An operational security-monitoring platform for managing routine protection checks, site observations and structured incident follow-up. Clear readiness status, event visibility and evidence capture help teams maintain consistent, accountable security workflows.",
+      "desc": "An operational security-monitoring platform with clear event visibility, routine checks and controlled response workflows.",
       "image": "assets/products/Security Guard.png",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "An operational security-monitoring platform for managing routine protection checks, site observations and structured incident follow-up. Clear readiness status, event visibility and evidence capture help teams maintain consistent, accountable security workflows."
+      "shortDescription": "An operational security-monitoring platform with clear event visibility, routine checks and controlled response workflows."
     },
     {
       "id": "p_018",
       "name": "SEMS",
       "slug": "sems",
-      "price": 1499,
+      "price": 1999,
       "platform": "Windows",
       "seller": "Wykies Automation",
-      "type": "Solar & Energy Management",
-      "category": "solar & energy management",
+      "type": "Engineering Management",
+      "category": "engineering management",
       "status": "active",
-      "desc": "A professional local solar energy-management platform for monitoring solar production, managing site loads and reviewing grid and battery performance. Track power flow, battery voltage, state of charge and energy trends while supporting practical inverter integration and load-management workflows.",
+      "desc": "A structured engineering-management system for technical work, equipment records, workflow control and operational follow-through.",
       "image": "assets/products/sems.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A professional local solar energy-management platform for monitoring solar production, managing site loads and reviewing grid and battery performance. Track power flow, battery voltage, state of charge and energy trends while supporting practical inverter integration and load-management workflows."
+      "shortDescription": "A structured engineering-management system for technical work, equipment records, workflow control and operational follow-through."
     },
     {
       "id": "p_019",
@@ -437,14 +437,14 @@
       "price": 699,
       "platform": "Windows",
       "seller": "Wykies Automation",
-      "type": "Software Build & Code Signing",
-      "category": "software build & code signing",
+      "type": "Engineering Utility",
+      "category": "engineering utility",
       "status": "active",
-      "desc": "A professional Windows build and code-signing utility for converting Python and PowerShell applications into distributable executable files. Inspect certificates, apply digital signatures, verify completed releases and prepare trusted software packages for customer deployment.",
+      "desc": "A focused sign-design and production utility for preparing practical layouts, job details and workshop-ready outputs.",
       "image": "assets/products/Sign Tool.png",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A professional Windows build and code-signing utility for converting Python and PowerShell applications into distributable executable files. Inspect certificates, apply digital signatures, verify completed releases and prepare trusted software packages for customer deployment."
+      "shortDescription": "A focused sign-design and production utility for preparing practical layouts, job details and workshop-ready outputs."
     },
     {
       "id": "p_020",
@@ -456,11 +456,11 @@
       "type": "Automotive Engineering",
       "category": "automotive engineering",
       "status": "active",
-      "desc": "A specialised transmission-control engineering studio for gearbox diagnostics, TCU signal testing and structured bench-test preparation. Review operating values, investigate faults, manage controlled configuration workflows and retain clear technical evidence for every test.",
+      "desc": "A transmission-control engineering interface for gearbox diagnostics, TCU testing and controlled configuration workflows.",
       "image": "assets/products/TCU.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A specialised transmission-control engineering studio for gearbox diagnostics, TCU signal testing and structured bench-test preparation. Review operating values, investigate faults, manage controlled configuration workflows and retain clear technical evidence for every test."
+      "shortDescription": "A transmission-control engineering interface for gearbox diagnostics, TCU testing and controlled configuration workflows."
     },
     {
       "id": "p_021",
@@ -472,11 +472,11 @@
       "type": "IT Operations",
       "category": "it operations",
       "status": "active",
-      "desc": "A professional command center for preparing and deploying virtual machines, maintaining infrastructure inventory and managing backup and restore workflows. Improve system visibility, recovery planning and disaster-recovery readiness without positioning the platform as a vCenter replacement.",
+      "desc": "A professional command center for VM build, inventory, backup, restore and disaster-recovery readiness.",
       "image": "assets/products/vm deploymnet- & Recovery.png",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A professional command center for preparing and deploying virtual machines, maintaining infrastructure inventory and managing backup and restore workflows. Improve system visibility, recovery planning and disaster-recovery readiness without positioning the platform as a vCenter replacement."
+      "shortDescription": "A professional command center for VM build, inventory, backup, restore and disaster-recovery readiness."
     }
   ],
   "fileRecords": [],
