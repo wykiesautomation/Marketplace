@@ -2,7 +2,8 @@
   "meta": {
     "schemaVersion": 26,
     "build": "Build26-live-communication-seo-safety",
-    "adapter": "json"
+    "adapter": "json",
+    "catalogueUpdate": "Public catalogue limited to the 15 selected products."
   },
   "settings": {
     "currency": "ZAR",
@@ -76,13 +77,13 @@
       "id": "p_022",
       "name": "VisionEdge",
       "slug": "visionedge",
-      "price": 24999,
+      "price": 3995,
       "pricePrefix": "From ",
       "platform": "Windows / Edge / OPC UA",
       "seller": "Wykies Automation",
       "type": "Industrial Machine Vision",
       "category": "industrial machine vision",
-      "status": "active",
+      "status": "archived",
       "productKind": "software",
       "desc": "VisionEdge uses industrial cameras and production data to inspect material, measure products and monitor machine movement. Camera setup, model training, PLC integration, diagnostics and production evidence are managed from one controlled platform.",
       "image": "assets/products/VisionEdge_Production_Intelligence_Studio.jpg",
@@ -90,10 +91,11 @@
       "approvalStatus": "approved",
       "shortDescription": "Industrial machine vision for inspection, measurement, movement monitoring and controlled production evidence.",
       "salesMode": "Site Assessment",
-      "featured": true,
+      "featured": false,
       "createdAt": "2026-09-02T18:55:00+02:00",
       "approvedAt": "2026-09-02T18:55:00+02:00",
-      "approvedBy": "u_admin_1"
+      "approvedBy": "u_admin_1",
+      "archivedReason": "Not included in the current public catalogue."
     },
     {
       "id": "p_023",
@@ -112,7 +114,7 @@
       "approvalStatus": "approved",
       "shortDescription": "Safe PROFIBUS network, GSD, commissioning and diagnostic engineering.",
       "salesMode": "Request Trial",
-      "featured": true,
+      "featured": false,
       "createdAt": "2026-09-02T18:55:00+02:00",
       "approvedAt": "2026-09-02T18:55:00+02:00",
       "approvedBy": "u_admin_1"
@@ -121,12 +123,12 @@
       "id": "p_024",
       "name": "Universal Modbus Device Engineering Platform",
       "slug": "universal-modbus-device-engineering-platform",
-      "price": 2999,
+      "price": 1495,
       "platform": "Windows / Modbus TCP / Modbus RTU",
       "seller": "Wykies Automation",
       "type": "Industrial Protocol Engineering",
       "category": "industrial protocol engineering",
-      "status": "active",
+      "status": "archived",
       "productKind": "software",
       "desc": "Configure Modbus TCP and RTU connections, register devices, build register maps, decode data and monitor bounded FC1 to FC4 read-only values. Includes templates, commissioning evidence, history, monitoring and field acceptance with a 30-day trial limited to two devices.",
       "image": "assets/products/Universal_Modbus_Device_Engineering_Platform.jpg",
@@ -134,13 +136,14 @@
       "approvalStatus": "approved",
       "shortDescription": "Modbus TCP and RTU device, register, commissioning and read-only monitoring engineering.",
       "salesMode": "30-Day Trial / Buy Licence",
-      "featured": true,
+      "featured": false,
       "trialDays": 30,
       "trialDeviceLimit": 2,
       "readOnly": true,
       "createdAt": "2026-09-02T18:55:00+02:00",
       "approvedAt": "2026-09-02T18:55:00+02:00",
-      "approvedBy": "u_admin_1"
+      "approvedBy": "u_admin_1",
+      "archivedReason": "Not included in the current public catalogue."
     },
     {
       "id": "p_001",
@@ -156,7 +159,8 @@
       "image": "assets/products/12ch Alarm.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A professional hybrid alarm platform for secure local operation, configuration, event visibility and field-ready alarm management."
+      "shortDescription": "A professional hybrid alarm platform for secure local operation, configuration, event visibility and field-ready alarm management.",
+      "featured": false
     },
     {
       "id": "p_002",
@@ -167,12 +171,14 @@
       "seller": "Wykies Automation",
       "type": "Engineering Software",
       "category": "engineering software",
-      "status": "active",
+      "status": "archived",
       "desc": "A clean production interface for practical 3D-printer operation, machine setup, job control and workshop monitoring.",
       "image": "assets/products/3dprinter.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A clean production interface for practical 3D-printer operation, machine setup, job control and workshop monitoring."
+      "shortDescription": "A clean production interface for practical 3D-printer operation, machine setup, job control and workshop monitoring.",
+      "featured": false,
+      "archivedReason": "Not included in the current public catalogue."
     },
     {
       "id": "p_003",
@@ -188,7 +194,8 @@
       "image": "assets/products/Charger.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A focused charger-control workspace for battery monitoring, configuration, diagnostics and technical test workflows."
+      "shortDescription": "A focused charger-control workspace for battery monitoring, configuration, diagnostics and technical test workflows.",
+      "featured": false
     },
     {
       "id": "p_004",
@@ -204,7 +211,8 @@
       "image": "assets/products/Device Engineering Studio.png",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A capability-aware engineering studio for verified board profiles, safe I/O selection, firmware compatibility and device commissioning."
+      "shortDescription": "A capability-aware engineering studio for verified board profiles, safe I/O selection, firmware compatibility and device commissioning.",
+      "featured": false
     },
     {
       "id": "p_005",
@@ -215,12 +223,14 @@
       "seller": "Wykies Automation",
       "type": "Automotive Engineering",
       "category": "automotive engineering",
-      "status": "active",
+      "status": "archived",
       "desc": "An integrated ECU and TCU test-bench suite for serial diagnostics, configuration, controlled testing and vehicle-system development.",
       "image": "assets/products/ECU_TCU.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "An integrated ECU and TCU test-bench suite for serial diagnostics, configuration, controlled testing and vehicle-system development."
+      "shortDescription": "An integrated ECU and TCU test-bench suite for serial diagnostics, configuration, controlled testing and vehicle-system development.",
+      "featured": false,
+      "archivedReason": "Not included in the current public catalogue."
     },
     {
       "id": "p_006",
@@ -236,7 +246,8 @@
       "image": "assets/products/Freezer.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A practical freezer and cold-storage monitoring solution with clear status, alarms and operational visibility."
+      "shortDescription": "A practical freezer and cold-storage monitoring solution with clear status, alarms and operational visibility.",
+      "featured": false
     },
     {
       "id": "p_007",
@@ -252,7 +263,8 @@
       "image": "assets/products/GateControl.PNG",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A complete gate-control platform with responsive local HMI, live operation, configuration and controlled access workflows."
+      "shortDescription": "A complete gate-control platform with responsive local HMI, live operation, configuration and controlled access workflows.",
+      "featured": false
     },
     {
       "id": "p_008",
@@ -268,7 +280,8 @@
       "image": "assets/products/Hardware Bench.png",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A structured hardware test-bench environment for equipment checks, I/O validation, diagnostics and commissioning records."
+      "shortDescription": "A structured hardware test-bench environment for equipment checks, I/O validation, diagnostics and commissioning records.",
+      "featured": false
     },
     {
       "id": "p_009",
@@ -284,23 +297,26 @@
       "image": "assets/products/HMI & Scada Studio.png",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A professional workspace for designing clear industrial HMI and SCADA screens, reusable objects and practical operator workflows."
+      "shortDescription": "A professional workspace for designing clear industrial HMI and SCADA screens, reusable objects and practical operator workflows.",
+      "featured": false
     },
     {
       "id": "p_010",
       "name": "LoopPilot",
       "slug": "looppilot",
-      "price": 2999,
+      "price": 2495,
       "platform": "Windows",
       "seller": "Wykies Automation",
       "type": "Process Engineering",
       "category": "process engineering",
-      "status": "active",
+      "status": "archived",
       "desc": "A loop-readiness, instrument-validation and PID-advisory platform for practical control-loop assessment and improvement.",
       "image": "assets/products/Looppilot.png",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A loop-readiness, instrument-validation and PID-advisory platform for practical control-loop assessment and improvement."
+      "shortDescription": "A loop-readiness, instrument-validation and PID-advisory platform for practical control-loop assessment and improvement.",
+      "featured": false,
+      "archivedReason": "Not included in the current public catalogue."
     },
     {
       "id": "p_011",
@@ -316,7 +332,8 @@
       "image": "assets/products/nanaogate.PNG",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A GSM gate and garage remote package with authorised access, status control and field-ready firmware workflows."
+      "shortDescription": "A GSM gate and garage remote package with authorised access, status control and field-ready firmware workflows.",
+      "featured": false
     },
     {
       "id": "p_012",
@@ -332,7 +349,8 @@
       "image": "assets/products/OT Asset Assurance.png",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A modular OT assurance platform for asset inventory, audit readiness, governance evidence and operational risk visibility."
+      "shortDescription": "A modular OT assurance platform for asset inventory, audit readiness, governance evidence and operational risk visibility.",
+      "featured": false
     },
     {
       "id": "p_013",
@@ -348,7 +366,8 @@
       "image": "assets/products/OT Scanner.png",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A focused OT discovery and scanning utility for controlled network visibility, device identification and technical review."
+      "shortDescription": "A focused OT discovery and scanning utility for controlled network visibility, device identification and technical review.",
+      "featured": false
     },
     {
       "id": "p_014",
@@ -364,7 +383,8 @@
       "image": "assets/products/Plasma Cutter.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A practical control and monitoring interface for plasma-cutter setup, job workflows and workshop operation."
+      "shortDescription": "A practical control and monitoring interface for plasma-cutter setup, job workflows and workshop operation.",
+      "featured": false
     },
     {
       "id": "p_015",
@@ -380,7 +400,8 @@
       "image": "assets/products/ProcessScope Studio.png",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A process and instrumentation analysis workspace for engineering review, operational visibility and structured investigation."
+      "shortDescription": "A process and instrumentation analysis workspace for engineering review, operational visibility and structured investigation.",
+      "featured": false
     },
     {
       "id": "p_016",
@@ -396,7 +417,8 @@
       "image": "assets/products/Rockwell Build Studio.png",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A capability-aware Rockwell engineering studio for controller-aligned blocks, I/O structures and buildable automation deliverables."
+      "shortDescription": "A capability-aware Rockwell engineering studio for controller-aligned blocks, I/O structures and buildable automation deliverables.",
+      "featured": false
     },
     {
       "id": "p_017",
@@ -407,12 +429,14 @@
       "seller": "Wykies Automation",
       "type": "Security Software",
       "category": "security software",
-      "status": "active",
+      "status": "archived",
       "desc": "An operational security-monitoring platform with clear event visibility, routine checks and controlled response workflows.",
       "image": "assets/products/Security Guard.png",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "An operational security-monitoring platform with clear event visibility, routine checks and controlled response workflows."
+      "shortDescription": "An operational security-monitoring platform with clear event visibility, routine checks and controlled response workflows.",
+      "featured": false,
+      "archivedReason": "Not included in the current public catalogue."
     },
     {
       "id": "p_018",
@@ -428,7 +452,8 @@
       "image": "assets/products/sems.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A structured engineering-management system for technical work, equipment records, workflow control and operational follow-through."
+      "shortDescription": "A structured engineering-management system for technical work, equipment records, workflow control and operational follow-through.",
+      "featured": false
     },
     {
       "id": "p_019",
@@ -439,12 +464,14 @@
       "seller": "Wykies Automation",
       "type": "Engineering Utility",
       "category": "engineering utility",
-      "status": "active",
+      "status": "archived",
       "desc": "A focused sign-design and production utility for preparing practical layouts, job details and workshop-ready outputs.",
       "image": "assets/products/Sign Tool.png",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A focused sign-design and production utility for preparing practical layouts, job details and workshop-ready outputs."
+      "shortDescription": "A focused sign-design and production utility for preparing practical layouts, job details and workshop-ready outputs.",
+      "featured": false,
+      "archivedReason": "Not included in the current public catalogue."
     },
     {
       "id": "p_020",
@@ -455,28 +482,32 @@
       "seller": "Wykies Automation",
       "type": "Automotive Engineering",
       "category": "automotive engineering",
-      "status": "active",
+      "status": "archived",
       "desc": "A transmission-control engineering interface for gearbox diagnostics, TCU testing and controlled configuration workflows.",
       "image": "assets/products/TCU.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A transmission-control engineering interface for gearbox diagnostics, TCU testing and controlled configuration workflows."
+      "shortDescription": "A transmission-control engineering interface for gearbox diagnostics, TCU testing and controlled configuration workflows.",
+      "featured": false,
+      "archivedReason": "Not included in the current public catalogue."
     },
     {
       "id": "p_021",
       "name": "VM Deployment & Recovery Command Center",
       "slug": "vm-deployment-recovery",
-      "price": 2999,
+      "price": 1995,
       "platform": "Windows",
       "seller": "Wykies Automation",
       "type": "IT Operations",
       "category": "it operations",
-      "status": "active",
+      "status": "archived",
       "desc": "A professional command center for VM build, inventory, backup, restore and disaster-recovery readiness.",
       "image": "assets/products/vm deploymnet- & Recovery.png",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
-      "shortDescription": "A professional command center for VM build, inventory, backup, restore and disaster-recovery readiness."
+      "shortDescription": "A professional command center for VM build, inventory, backup, restore and disaster-recovery readiness.",
+      "featured": false,
+      "archivedReason": "Not included in the current public catalogue."
     }
   ],
   "fileRecords": [],
