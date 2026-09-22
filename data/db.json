@@ -130,7 +130,7 @@
                          "seller":  "Wykies Automation",
                          "type":  "Industrial Protocol Engineering",
                          "category":  "industrial protocol engineering",
-                         "status":  "archived",
+                         "status":  "active",
                          "productKind":  "software",
                          "desc":  "Configure Modbus TCP and RTU connections, register devices, build register maps, decode data and monitor bounded FC1 to FC4 read-only values. Includes templates, commissioning evidence, history, monitoring and field acceptance with a 30-day trial limited to two devices.",
                          "image":  "assets/products/modbus.jpg",
