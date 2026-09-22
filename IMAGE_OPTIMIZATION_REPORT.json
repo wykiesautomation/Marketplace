@@ -1,0 +1,321 @@
+{
+  "images_converted": 39,
+  "before_bytes": 6780937,
+  "after_bytes": 3111153,
+  "saved_bytes": 3669784,
+  "saved_percent": 54.1,
+  "files": [
+    {
+      "source": "assets/products/12ch Alarm.jpg",
+      "output": "assets/products/12ch Alarm.jpg",
+      "old_bytes": 188513,
+      "new_bytes": 75829,
+      "width": 1200,
+      "height": 779
+    },
+    {
+      "source": "assets/products/3dprinter.jpg",
+      "output": "assets/products/3dprinter.jpg",
+      "old_bytes": 104682,
+      "new_bytes": 45102,
+      "width": 1200,
+      "height": 756
+    },
+    {
+      "source": "assets/products/Charger.jpg",
+      "output": "assets/products/Charger.jpg",
+      "old_bytes": 158828,
+      "new_bytes": 71089,
+      "width": 1200,
+      "height": 737
+    },
+    {
+      "source": "assets/products/Device Engineering Studio.png",
+      "output": "assets/products/Device Engineering Studio.jpg",
+      "old_bytes": 98418,
+      "new_bytes": 90644,
+      "width": 1200,
+      "height": 711
+    },
+    {
+      "source": "assets/products/ECU_TCU.jpg",
+      "output": "assets/products/ECU_TCU.jpg",
+      "old_bytes": 289677,
+      "new_bytes": 86156,
+      "width": 1200,
+      "height": 661
+    },
+    {
+      "source": "assets/products/Freezer.jpg",
+      "output": "assets/products/Freezer.jpg",
+      "old_bytes": 191976,
+      "new_bytes": 90558,
+      "width": 1200,
+      "height": 740
+    },
+    {
+      "source": "assets/products/GateControl.PNG",
+      "output": "assets/products/GateControl.jpg",
+      "old_bytes": 133210,
+      "new_bytes": 107835,
+      "width": 1200,
+      "height": 780
+    },
+    {
+      "source": "assets/products/HMI & Scada Studio.png",
+      "output": "assets/products/HMI & Scada Studio.jpg",
+      "old_bytes": 161705,
+      "new_bytes": 96900,
+      "width": 1200,
+      "height": 725
+    },
+    {
+      "source": "assets/products/Hardware Bench.png",
+      "output": "assets/products/Hardware Bench.jpg",
+      "old_bytes": 79567,
+      "new_bytes": 92089,
+      "width": 1200,
+      "height": 727
+    },
+    {
+      "source": "assets/products/Looppilot.png",
+      "output": "assets/products/Looppilot.jpg",
+      "old_bytes": 87277,
+      "new_bytes": 82832,
+      "width": 1200,
+      "height": 678
+    },
+    {
+      "source": "assets/products/OT Asset Assurance.png",
+      "output": "assets/products/OT Asset Assurance.jpg",
+      "old_bytes": 277040,
+      "new_bytes": 105464,
+      "width": 1200,
+      "height": 721
+    },
+    {
+      "source": "assets/products/OT Scanner.png",
+      "output": "assets/products/OT Scanner.jpg",
+      "old_bytes": 72309,
+      "new_bytes": 71181,
+      "width": 1200,
+      "height": 651
+    },
+    {
+      "source": "assets/products/Plasma Cutter.jpg",
+      "output": "assets/products/Plasma Cutter.jpg",
+      "old_bytes": 144316,
+      "new_bytes": 64737,
+      "width": 1200,
+      "height": 741
+    },
+    {
+      "source": "assets/products/ProcessScope Studio.png",
+      "output": "assets/products/ProcessScope Studio.jpg",
+      "old_bytes": 141826,
+      "new_bytes": 95924,
+      "width": 1200,
+      "height": 661
+    },
+    {
+      "source": "assets/products/Rockwell Build Studio.png",
+      "output": "assets/products/Rockwell Build Studio.jpg",
+      "old_bytes": 98442,
+      "new_bytes": 100815,
+      "width": 1200,
+      "height": 703
+    },
+    {
+      "source": "assets/products/Security Guard.png",
+      "output": "assets/products/Security Guard.jpg",
+      "old_bytes": 73332,
+      "new_bytes": 72329,
+      "width": 1200,
+      "height": 733
+    },
+    {
+      "source": "assets/products/Sign Tool.png",
+      "output": "assets/products/Sign Tool.jpg",
+      "old_bytes": 105312,
+      "new_bytes": 58999,
+      "width": 1200,
+      "height": 676
+    },
+    {
+      "source": "assets/products/TCU.jpg",
+      "output": "assets/products/TCU.jpg",
+      "old_bytes": 175424,
+      "new_bytes": 52404,
+      "width": 1200,
+      "height": 661
+    },
+    {
+      "source": "assets/products/Visiom studio.jpg",
+      "output": "assets/products/Visiom studio.jpg",
+      "old_bytes": 148924,
+      "new_bytes": 48090,
+      "width": 1200,
+      "height": 655
+    },
+    {
+      "source": "assets/products/battery-charger-control-studio.jpg",
+      "output": "assets/products/battery-charger-control-studio.jpg",
+      "old_bytes": 158828,
+      "new_bytes": 71089,
+      "width": 1200,
+      "height": 737
+    },
+    {
+      "source": "assets/products/cold-storage-monitoring-system.jpg",
+      "output": "assets/products/cold-storage-monitoring-system.jpg",
+      "old_bytes": 191976,
+      "new_bytes": 90558,
+      "width": 1200,
+      "height": 740
+    },
+    {
+      "source": "assets/products/device-engineering-studio.png",
+      "output": "assets/products/device-engineering-studio.jpg",
+      "old_bytes": 98418,
+      "new_bytes": 90644,
+      "width": 1200,
+      "height": 711
+    },
+    {
+      "source": "assets/products/hardware-bench.png",
+      "output": "assets/products/hardware-bench.jpg",
+      "old_bytes": 79567,
+      "new_bytes": 92089,
+      "width": 1200,
+      "height": 727
+    },
+    {
+      "source": "assets/products/hmi-scada-studio.png",
+      "output": "assets/products/hmi-scada-studio.jpg",
+      "old_bytes": 161705,
+      "new_bytes": 96900,
+      "width": 1200,
+      "height": 725
+    },
+    {
+      "source": "assets/products/modbus.jpg",
+      "output": "assets/products/modbus.jpg",
+      "old_bytes": 161776,
+      "new_bytes": 47619,
+      "width": 1200,
+      "height": 616
+    },
+    {
+      "source": "assets/products/nanaogate.PNG",
+      "output": "assets/products/nanaogate.jpg",
+      "old_bytes": 110187,
+      "new_bytes": 73146,
+      "width": 1200,
+      "height": 703
+    },
+    {
+      "source": "assets/products/ot-asset-assurance.png",
+      "output": "assets/products/ot-asset-assurance.jpg",
+      "old_bytes": 277040,
+      "new_bytes": 105464,
+      "width": 1200,
+      "height": 721
+    },
+    {
+      "source": "assets/products/ot-scanner.png",
+      "output": "assets/products/ot-scanner.jpg",
+      "old_bytes": 72309,
+      "new_bytes": 71181,
+      "width": 1200,
+      "height": 651
+    },
+    {
+      "source": "assets/products/plasma-cutter-control-studio.jpg",
+      "output": "assets/products/plasma-cutter-control-studio.jpg",
+      "old_bytes": 144316,
+      "new_bytes": 64737,
+      "width": 1200,
+      "height": 741
+    },
+    {
+      "source": "assets/products/processscope-studio.png",
+      "output": "assets/products/processscope-studio.jpg",
+      "old_bytes": 141826,
+      "new_bytes": 95924,
+      "width": 1200,
+      "height": 661
+    },
+    {
+      "source": "assets/products/profibus.jpg",
+      "output": "assets/products/profibus.jpg",
+      "old_bytes": 170920,
+      "new_bytes": 53842,
+      "width": 1200,
+      "height": 612
+    },
+    {
+      "source": "assets/products/rockwell-build-studio.png",
+      "output": "assets/products/rockwell-build-studio.jpg",
+      "old_bytes": 98442,
+      "new_bytes": 100815,
+      "width": 1200,
+      "height": 703
+    },
+    {
+      "source": "assets/products/sems.jpg",
+      "output": "assets/products/sems.jpg",
+      "old_bytes": 218663,
+      "new_bytes": 67594,
+      "width": 1200,
+      "height": 649
+    },
+    {
+      "source": "assets/products/visionedge.jpg",
+      "output": "assets/products/visionedge.jpg",
+      "old_bytes": 148924,
+      "new_bytes": 48090,
+      "width": 1200,
+      "height": 655
+    },
+    {
+      "source": "assets/products/vm deploymnet- & Recovery.png",
+      "output": "assets/products/vm deploymnet- & Recovery.jpg",
+      "old_bytes": 691676,
+      "new_bytes": 87837,
+      "width": 1200,
+      "height": 631
+    },
+    {
+      "source": "assets/products/vm-deployment-recovery.png",
+      "output": "assets/products/vm-deployment-recovery.jpg",
+      "old_bytes": 691676,
+      "new_bytes": 87837,
+      "width": 1200,
+      "height": 631
+    },
+    {
+      "source": "assets/products/wa-gate-controller.png",
+      "output": "assets/products/wa-gate-controller.jpg",
+      "old_bytes": 133210,
+      "new_bytes": 107835,
+      "width": 1200,
+      "height": 780
+    },
+    {
+      "source": "assets/products/wa-hybrid-alarm.jpg",
+      "output": "assets/products/wa-hybrid-alarm.jpg",
+      "old_bytes": 188513,
+      "new_bytes": 75829,
+      "width": 1200,
+      "height": 779
+    },
+    {
+      "source": "assets/products/wa-nano-gsm-gate-garage-remote.png",
+      "output": "assets/products/wa-nano-gsm-gate-garage-remote.jpg",
+      "old_bytes": 110187,
+      "new_bytes": 73146,
+      "width": 1200,
+      "height": 703
+    }
+  ]
+}

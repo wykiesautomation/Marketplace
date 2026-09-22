@@ -131,7 +131,7 @@
       "category": "industrial automation",
       "status": "active",
       "desc": "A capability-aware engineering studio for verified board profiles, safe I/O selection, firmware compatibility and device commissioning.",
-      "image": "assets/products/Device Engineering Studio.png",
+      "image": "assets/products/Device Engineering Studio.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
       "shortDescription": "A capability-aware engineering studio for verified board profiles, safe I/O selection, firmware compatibility and device commissioning."
@@ -179,7 +179,7 @@
       "category": "access control",
       "status": "active",
       "desc": "A complete gate-control platform with responsive local HMI, live operation, configuration and controlled access workflows.",
-      "image": "assets/products/GateControl.PNG",
+      "image": "assets/products/GateControl.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
       "shortDescription": "A complete gate-control platform with responsive local HMI, live operation, configuration and controlled access workflows."
@@ -195,7 +195,7 @@
       "category": "engineering software",
       "status": "active",
       "desc": "A structured hardware test-bench environment for equipment checks, I/O validation, diagnostics and commissioning records.",
-      "image": "assets/products/Hardware Bench.png",
+      "image": "assets/products/Hardware Bench.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
       "shortDescription": "A structured hardware test-bench environment for equipment checks, I/O validation, diagnostics and commissioning records."
@@ -211,7 +211,7 @@
       "category": "industrial automation",
       "status": "active",
       "desc": "A professional workspace for designing clear industrial HMI and SCADA screens, reusable objects and practical operator workflows.",
-      "image": "assets/products/HMI & Scada Studio.png",
+      "image": "assets/products/HMI & Scada Studio.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
       "shortDescription": "A professional workspace for designing clear industrial HMI and SCADA screens, reusable objects and practical operator workflows."
@@ -227,7 +227,7 @@
       "category": "process engineering",
       "status": "active",
       "desc": "A loop-readiness, instrument-validation and PID-advisory platform for practical control-loop assessment and improvement.",
-      "image": "assets/products/Looppilot.png",
+      "image": "assets/products/Looppilot.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
       "shortDescription": "A loop-readiness, instrument-validation and PID-advisory platform for practical control-loop assessment and improvement."
@@ -243,7 +243,7 @@
       "category": "access control",
       "status": "active",
       "desc": "A GSM gate and garage remote package with authorised access, status control and field-ready firmware workflows.",
-      "image": "assets/products/nanaogate.PNG",
+      "image": "assets/products/nanaogate.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
       "shortDescription": "A GSM gate and garage remote package with authorised access, status control and field-ready firmware workflows."
@@ -259,7 +259,7 @@
       "category": "ot governance",
       "status": "active",
       "desc": "A modular OT assurance platform for asset inventory, audit readiness, governance evidence and operational risk visibility.",
-      "image": "assets/products/OT Asset Assurance.png",
+      "image": "assets/products/OT Asset Assurance.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
       "shortDescription": "A modular OT assurance platform for asset inventory, audit readiness, governance evidence and operational risk visibility."
@@ -275,7 +275,7 @@
       "category": "ot & network tools",
       "status": "active",
       "desc": "A focused OT discovery and scanning utility for controlled network visibility, device identification and technical review.",
-      "image": "assets/products/OT Scanner.png",
+      "image": "assets/products/OT Scanner.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
       "shortDescription": "A focused OT discovery and scanning utility for controlled network visibility, device identification and technical review."
@@ -307,7 +307,7 @@
       "category": "process engineering",
       "status": "active",
       "desc": "A process and instrumentation analysis workspace for engineering review, operational visibility and structured investigation.",
-      "image": "assets/products/ProcessScope Studio.png",
+      "image": "assets/products/ProcessScope Studio.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
       "shortDescription": "A process and instrumentation analysis workspace for engineering review, operational visibility and structured investigation."
@@ -323,7 +323,7 @@
       "category": "industrial automation",
       "status": "active",
       "desc": "A capability-aware Rockwell engineering studio for controller-aligned blocks, I/O structures and buildable automation deliverables.",
-      "image": "assets/products/Rockwell Build Studio.png",
+      "image": "assets/products/Rockwell Build Studio.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
       "shortDescription": "A capability-aware Rockwell engineering studio for controller-aligned blocks, I/O structures and buildable automation deliverables."
@@ -339,7 +339,7 @@
       "category": "security software",
       "status": "active",
       "desc": "An operational security-monitoring platform with clear event visibility, routine checks and controlled response workflows.",
-      "image": "assets/products/Security Guard.png",
+      "image": "assets/products/Security Guard.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
       "shortDescription": "An operational security-monitoring platform with clear event visibility, routine checks and controlled response workflows."
@@ -371,7 +371,7 @@
       "category": "engineering utility",
       "status": "active",
       "desc": "A focused sign-design and production utility for preparing practical layouts, job details and workshop-ready outputs.",
-      "image": "assets/products/Sign Tool.png",
+      "image": "assets/products/Sign Tool.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
       "shortDescription": "A focused sign-design and production utility for preparing practical layouts, job details and workshop-ready outputs."
@@ -403,7 +403,7 @@
       "category": "it operations",
       "status": "active",
       "desc": "A professional command center for VM build, inventory, backup, restore and disaster-recovery readiness.",
-      "image": "assets/products/vm deploymnet- & Recovery.png",
+      "image": "assets/products/vm deploymnet- & Recovery.jpg",
       "sellerId": "u_seller_1",
       "approvalStatus": "approved",
       "shortDescription": "A professional command center for VM build, inventory, backup, restore and disaster-recovery readiness."
