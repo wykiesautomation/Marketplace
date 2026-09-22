@@ -1,4 +1,4 @@
-﻿(function(){
+(function(){
   "use strict";
   function bad(s){return /[\u00c2\u00c3\u00e2\ufffd]/.test(s||"");}
   function repair(){
