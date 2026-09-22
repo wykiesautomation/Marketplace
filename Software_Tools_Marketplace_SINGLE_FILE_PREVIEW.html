@@ -24,3 +24,4 @@ async function loadPayoutLedger(){const el=document.getElementById('payout-ledge
 async function loadPayFastDiagnostics(){const el=document.getElementById('payfast-diagnostics-data');if(!el)return;try{const r=await api('/api/admin/payfast/diagnostics',{headers:{'x-demo-user':'u_admin_1'}});el.innerHTML='<pre>'+JSON.stringify(r,null,2)+'</pre>'}catch(e){el.innerHTML='<div class="notice">Run backend to view PayFast diagnostics.</div>'}}
 window.addEventListener('DOMContentLoaded',async()=>{await tryLoadBackendProducts();renderCards('product-grid');renderCards('latest-grid');loadSellerApplications();loadAdminProducts();loadAdminFiles();loadPayoutLedger();loadPayFastDiagnostics();});</script></body></html>
 
+

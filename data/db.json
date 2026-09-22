@@ -380,7 +380,7 @@
                          "seller":  "Wykies Automation",
                          "type":  "Workshop Automation",
                          "category":  "workshop automation",
-                         "status":  "active",
+                         "status":  "archived",
                          "desc":  "A practical control and monitoring interface for plasma-cutter setup, job workflows and workshop operation.",
                          "image":  "",
                          "sellerId":  "u_seller_1",
