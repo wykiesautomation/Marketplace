@@ -1,33 +1,32 @@
-﻿<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Wykies Automation marketplace for industrial software, automation tools, firmware, engineering utilities and practical digital systems."><title>Wykies Automation | Industrial Software & Automation Marketplace</title><link rel="stylesheet" href="styles.css?v=45.0.0"><style id="discovery-icon-repair-v2">
-/* Encoding-proof Discovery Engine icons. No font glyphs or Unicode symbols are used. */
-.discovery-clean-search-icon{
+﻿<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Wykies Automation marketplace for industrial software, automation tools, firmware, engineering utilities and practical digital systems."><title>Wykies Automation | Industrial Software & Automation Marketplace</title><link rel="stylesheet" href="styles.css?v=45.0.0">
+<style id="homepage-character-repair-v3">
+/* Encoding-proof homepage controls. All symbols are drawn with CSS or ASCII text. */
+.wa-clean-search{
   display:inline-block!important;
   position:relative!important;
-  width:19px!important;
-  height:19px!important;
-  min-width:19px!important;
+  width:20px!important;
+  height:20px!important;
+  min-width:20px!important;
   margin-left:14px!important;
-  color:transparent!important;
   font-size:0!important;
-  line-height:0!important;
-  overflow:visible!important;
+  color:transparent!important;
 }
-.discovery-clean-search-icon:before{
+.wa-clean-search:before{
   content:""!important;
   position:absolute!important;
   left:1px!important;
   top:1px!important;
-  width:11px!important;
-  height:11px!important;
+  width:12px!important;
+  height:12px!important;
   border:3px solid #20d9ff!important;
   border-radius:50%!important;
   box-sizing:border-box!important;
 }
-.discovery-clean-search-icon:after{
+.wa-clean-search:after{
   content:""!important;
   position:absolute!important;
-  left:11px!important;
-  top:13px!important;
+  left:12px!important;
+  top:14px!important;
   width:8px!important;
   height:3px!important;
   border-radius:3px!important;
@@ -35,48 +34,56 @@
   transform:rotate(45deg)!important;
   transform-origin:left center!important;
 }
-.discovery-clean-arrow{
-  display:inline-grid!important;
-  place-items:center!important;
+.wa-clean-arrow{
+  display:inline-block!important;
+  position:relative!important;
   width:34px!important;
   height:34px!important;
   min-width:34px!important;
   margin-left:auto!important;
+  border:1px solid rgba(32,217,255,.35)!important;
   border-radius:50%!important;
-  border:1px solid rgba(32,217,255,.28)!important;
-  color:transparent!important;
   font-size:0!important;
-  position:relative!important;
+  color:transparent!important;
 }
-.discovery-clean-arrow:before{
+.wa-clean-arrow:before{
   content:""!important;
+  position:absolute!important;
+  left:11px!important;
+  top:10px!important;
   width:9px!important;
   height:9px!important;
   border-top:2px solid #dbeafe!important;
   border-right:2px solid #dbeafe!important;
   transform:rotate(45deg)!important;
-  margin-left:-4px!important;
 }
-.discovery-guide-icon{
+.wa-clean-guide-icon{
   display:grid!important;
   place-items:center!important;
   width:68px!important;
   height:68px!important;
+  min-width:68px!important;
   border-radius:18px!important;
-  background:#e7f7ff!important;
+  background:#e8f7ff!important;
   color:#0867e8!important;
-  font-family:Inter,Segoe UI,Arial,sans-serif!important;
-  font-size:12px!important;
-  line-height:1!important;
-  font-weight:1000!important;
-  letter-spacing:.7px!important;
+  font:1000 13px/1 Inter,Segoe UI,Arial,sans-serif!important;
+  letter-spacing:.6px!important;
   text-transform:uppercase!important;
   overflow:hidden!important;
 }
-.discovery-guide-icon[data-clean-icon="AUTO"]:after{content:"AUTO"!important}
-.discovery-guide-icon[data-clean-icon="ENG"]:after{content:"ENG"!important}
-.discovery-guide-icon[data-clean-icon="EMB"]:after{content:"EMB"!important}
-.discovery-guide-icon[data-clean-icon="OPS"]:after{content:"OPS"!important}
+.wa-clean-guide-icon[data-code="PLC"]:after{content:"PLC"!important}
+.wa-clean-guide-icon[data-code="ENG"]:after{content:"ENG"!important}
+.wa-clean-guide-icon[data-code="I/O"]:after{content:"I/O"!important}
+.wa-clean-guide-icon[data-code="OPS"]:after{content:"OPS"!important}
+.wa-inline-arrow{
+  display:inline-block!important;
+  width:8px!important;
+  height:8px!important;
+  margin-left:7px!important;
+  border-top:2px solid currentColor!important;
+  border-right:2px solid currentColor!important;
+  transform:rotate(45deg)!important;
+}
 </style>
 </head><body>
 <header class="topbar"><div class="brand"><a href="index.html"><span class="brand-mark">WA</span><span class="brand-copy"><b>Wykies Automation</b><small>Software. Automation. Engineering.</small></span></a></div><button class="menu-btn" aria-label="Open navigation" onclick="document.querySelector('.nav').classList.toggle('open')">Menu</button><nav class="nav"><a class="active" href="index.html">Home</a><a href="products.html">Software</a><a href="seller-register.html">Sell</a><a href="seller-dashboard.html">Seller</a><a href="admin-dashboard.html">Admin</a></nav></header>
@@ -89,86 +96,122 @@
 <section class="builder-banner"><div class="builder-copy"><span class="kicker light">FOR BUILDERS, ENGINEERS & CREATORS</span><h2>Built something useful?<br>Put it to work.</h2><p>List practical software, firmware or technical packages. Wykies Automation provides a focused marketplace, review workflow and professional product presentation.</p><div><a class="btn lime xl" href="seller-register.html">Become a Seller</a><a class="btn outline xl" href="seller-product-create.html">List a Product</a></div></div><div class="builder-visual"><div class="orbit big">WA</div><div class="orbit o1">.EXE</div><div class="orbit o2">.ZIP</div><div class="orbit o3">.INO</div><div class="orbit o4">WEB</div></div></section>
 <section class="why-grid"><div class="why-title"><span class="kicker">WHY WYKIES AUTOMATION</span><h2>Serious tools.<br>Clear value.</h2></div><div class="why-item"><b>01</b><h3>Focused marketplace</h3><p>Technical solutions are easier to discover without consumer-app clutter.</p></div><div class="why-item"><b>02</b><h3>Review before release</h3><p>Seller listings and packages move through controlled approval workflows.</p></div><div class="why-item"><b>03</b><h3>Made for practical work</h3><p>Software for real equipment, teams, processes and operating environments.</p></div></section>
 </section></main>
-<footer class="wa-footer"><div><div class="footer-brand">WYKIES <span>AUTOMATION</span></div><p>Practical software and automation tools for real-world technical work.</p></div><div><b>Marketplace</b><a href="products.html">Browse Software</a><a href="seller-register.html">Register Seller</a><a href="seller-dashboard.html">Seller Console</a></div><div><b>Trust</b><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a><a href="refund-policy.html">Refund Policy</a></div><div><b>Platform</b><span>Windows</span><span>Web</span><span>Embedded</span><span>Industrial</span></div><small>Copyright: &copy; 2026 JP Van Wyk. All rights reserved.</small></footer><script src="app.js?v=46.2.0"></script><script id="discovery-icon-repair-v2">
+<footer class="wa-footer"><div><div class="footer-brand">WYKIES <span>AUTOMATION</span></div><p>Practical software and automation tools for real-world technical work.</p></div><div><b>Marketplace</b><a href="products.html">Browse Software</a><a href="seller-register.html">Register Seller</a><a href="seller-dashboard.html">Seller Console</a></div><div><b>Trust</b><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a><a href="refund-policy.html">Refund Policy</a></div><div><b>Platform</b><span>Windows</span><span>Web</span><span>Embedded</span><span>Industrial</span></div><small>Copyright: &copy; 2026 JP Van Wyk. All rights reserved.</small></footer><script src="app.js?v=46.2.0"></script>
+<script id="homepage-character-repair-v3">
 document.addEventListener('DOMContentLoaded',function(){
-  function shortBrokenText(el){
-    if(!el) return false;
-    var t=(el.textContent||'').trim();
-    if(!t || t.length>18) return false;
-    for(var i=0;i<t.length;i++){
-      var c=t.charCodeAt(i);
-      if(c>127) return true;
-    }
+  function hasNonAscii(text){
+    text=String(text||'');
+    for(var i=0;i<text.length;i++) if(text.charCodeAt(i)>127) return true;
     return false;
   }
+  function exactText(selector,value){
+    return Array.from(document.querySelectorAll(selector)).find(function(el){
+      return (el.textContent||'').trim()===value;
+    });
+  }
+  function closestUseful(el){
+    if(!el) return null;
+    return el.closest('a,button,article,li') || el.parentElement;
+  }
+  function removeBrokenShortText(root,keep){
+    if(!root) return;
+    Array.from(root.querySelectorAll('span,i,b,strong,div')).forEach(function(el){
+      if(el===keep) return;
+      if(el.children.length>0) return;
+      var t=(el.textContent||'').trim();
+      if(t.length>0 && t.length<24 && hasNonAscii(t)) el.remove();
+    });
+  }
 
-  /* Repair the large Discovery Engine search icon. */
-  var inputs=Array.from(document.querySelectorAll('input'));
-  var discoveryInput=inputs.find(function(input){
-    return ((input.getAttribute('placeholder')||'').toLowerCase().indexOf('search software')>=0);
+  /* Discovery search field */
+  var discoveryInput=Array.from(document.querySelectorAll('input')).find(function(input){
+    return (input.getAttribute('placeholder')||'').toLowerCase().indexOf('search software')>=0;
   });
   if(discoveryInput){
     var searchBox=discoveryInput.parentElement;
     if(searchBox){
-      Array.from(searchBox.children).forEach(function(child){
-        if(child!==discoveryInput && shortBrokenText(child)) child.remove();
-      });
+      Array.from(searchBox.querySelectorAll('.wa-clean-search,.discovery-clean-search-icon')).forEach(function(el){el.remove()});
+      removeBrokenShortText(searchBox,discoveryInput);
       var searchIcon=document.createElement('span');
-      searchIcon.className='discovery-clean-search-icon';
+      searchIcon.className='wa-clean-search';
       searchIcon.setAttribute('aria-hidden','true');
       searchBox.appendChild(searchIcon);
     }
   }
 
-  /* Repair the four right-side arrows in the Discovery Engine list. */
-  var categoryNames=[
-    'Industrial Automation',
-    'Engineering Software',
-    'Embedded & Firmware',
-    'Business & Operations'
-  ];
-  categoryNames.forEach(function(name){
-    var title=Array.from(document.querySelectorAll('h2,h3,h4,strong,b')).find(function(el){
-      return (el.textContent||'').trim()===name;
-    });
+  /* Discovery category rows */
+  var discoveryNames=['Industrial Automation','Engineering Software','Embedded & Firmware','Business & Operations'];
+  discoveryNames.forEach(function(name){
+    var title=exactText('h2,h3,h4,strong,b',name);
     if(!title) return;
-    var row=title.closest('a,button,article,li,div');
+    var row=closestUseful(title);
     if(!row) return;
-    Array.from(row.querySelectorAll('span,i,b,strong')).forEach(function(el){
-      if(el!==title && shortBrokenText(el)) el.remove();
+    Array.from(row.querySelectorAll('.discovery-guide-icon,.wa-clean-guide-icon,.discovery-clean-arrow,.wa-clean-arrow')).forEach(function(el){el.remove()});
+    removeBrokenShortText(row,title);
+    var arrow=document.createElement('span');
+    arrow.className='wa-clean-arrow';
+    arrow.setAttribute('aria-hidden','true');
+    row.appendChild(arrow);
+  });
+
+  /* Four white guide cards */
+  var guideCards=[
+    {title:'Industrial Automation',code:'PLC'},
+    {title:'Engineering & Design',code:'ENG'},
+    {title:'Embedded & IoT',code:'I/O'},
+    {title:'Operations & Business',code:'OPS'}
+  ];
+  guideCards.forEach(function(item){
+    var title=exactText('h2,h3,h4,strong,b',item.title);
+    if(!title) return;
+    var card=title.closest('article,a') || title.parentElement;
+    if(!card) return;
+    Array.from(card.querySelectorAll('.discovery-guide-icon,.wa-clean-guide-icon')).forEach(function(el){el.remove()});
+    removeBrokenShortText(card,title);
+    var icon=document.createElement('span');
+    icon.className='wa-clean-guide-icon';
+    icon.setAttribute('data-code',item.code);
+    icon.setAttribute('aria-hidden','true');
+    card.insertBefore(icon,card.firstChild);
+
+    Array.from(card.querySelectorAll('a')).forEach(function(link){
+      if((link.textContent||'').toLowerCase().indexOf('browse solutions')>=0){
+        link.textContent='Browse solutions';
+        var arrow=document.createElement('span');
+        arrow.className='wa-inline-arrow';
+        arrow.setAttribute('aria-hidden','true');
+        link.appendChild(arrow);
+      }
     });
-    if(!row.querySelector('.discovery-clean-arrow')){
+  });
+
+  /* Featured catalogue link */
+  Array.from(document.querySelectorAll('a')).forEach(function(link){
+    var text=(link.textContent||'').trim();
+    if(text.toLowerCase().indexOf('view complete catalogue')>=0){
+      link.textContent='View complete catalogue';
       var arrow=document.createElement('span');
-      arrow.className='discovery-clean-arrow';
+      arrow.className='wa-inline-arrow';
       arrow.setAttribute('aria-hidden','true');
-      row.appendChild(arrow);
+      link.appendChild(arrow);
     }
   });
 
-  /* Repair the four corrupted icons in the guide cards numbered 01 to 04. */
-  var guideLabels=['AUTO','ENG','EMB','OPS'];
-  ['01','02','03','04'].forEach(function(number,index){
-    var numberNode=Array.from(document.querySelectorAll('span,b,strong,small')).find(function(el){
-      return (el.textContent||'').trim()===number;
-    });
-    if(!numberNode) return;
-    var card=numberNode.closest('article,a,div');
-    if(!card) return;
-    var candidates=Array.from(card.querySelectorAll('span,i,div')).filter(function(el){
-      return el!==numberNode && shortBrokenText(el);
-    });
-    candidates.forEach(function(el){el.remove()});
-    if(!card.querySelector('.discovery-guide-icon')){
-      var icon=document.createElement('span');
-      icon.className='discovery-guide-icon';
-      icon.setAttribute('data-clean-icon',guideLabels[index]);
-      icon.setAttribute('aria-hidden','true');
-      card.insertBefore(icon,card.firstChild);
-    }
+  /* Final targeted cleanup for known homepage labels containing mojibake. */
+  var walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
+  var nodes=[];
+  while(walker.nextNode()) nodes.push(walker.currentNode);
+  nodes.forEach(function(node){
+    var value=node.nodeValue||'';
+    if(!hasNonAscii(value)) return;
+    var lower=value.toLowerCase();
+    if(lower.indexOf('browse solutions')>=0) node.nodeValue='Browse solutions';
+    if(lower.indexOf('view complete catalogue')>=0) node.nodeValue='View complete catalogue';
   });
 });
 </script>
 </body></html>
+
 
 
 
