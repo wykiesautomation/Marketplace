@@ -1,4 +1,135 @@
-﻿<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Seller Registration</title><link rel="stylesheet" href="styles.css?v=45.0.0"></head><body><header class="topbar"><div class="brand"><a href="index.html">Software Tools Marketplace</a><span>Practical Software Tools for Real-World Technical Work</span></div><nav class="nav"><a href="products.html">Products</a><a href="seller-register.html">Register Seller</a><a href="seller-dashboard.html">Seller</a><a href="admin-dashboard.html">Admin</a></nav></header><main class="wrap"><section class="hero"><h1>Register as Seller</h1><p>Seller accounts are pending until approved by admin.</p></section><div class="split"><div class="card"><h3>Seller Details</h3><input id="sellerName" placeholder="Seller / business name"><input id="contactName" placeholder="Contact name"><input id="sellerEmail" placeholder="Seller email"><input id="sellerPassword" type="password" placeholder="Password"><label><input id="termsAccepted" type="checkbox" style="width:auto"> I accept seller terms, refund policy and 5% platform fee.</label><button onclick="submitSellerRegistration()">Submit Seller Application</button></div><div class="card"><h3>Payout Details</h3><select id="payoutMethod"><option>Manual EFT</option><option>PayFast / merchant review later</option></select><input id="bankName" placeholder="Bank name"><input id="accountHolder" placeholder="Account holder"><input id="accountNumber" placeholder="Account number / payout reference"><div class="notice">MVP payout mode: buyer pays marketplace, platform keeps 5%, seller balance is tracked for manual payout.</div></div></div></main><footer class="footer"><a href="terms.html">Terms</a> Â· <a href="privacy.html">Privacy</a> Â· <a href="refund-policy.html">Refund Policy</a> Â· Software Tools Marketplace Build20</footer><script src="app.js?v=46.1.8"></script></body></html>
+﻿<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Seller Registration</title><link rel="stylesheet" href="styles.css?v=45.0.0"><style id="seller-ui-professional-v1">
+:root{
+  --seller-navy:#071a33;
+  --seller-blue:#0b63f6;
+  --seller-cyan:#20d9ff;
+  --seller-green:#22c55e;
+  --seller-bg:#f3f7fc;
+  --seller-card:#ffffff;
+  --seller-line:#dce6f2;
+  --seller-text:#102033;
+  --seller-muted:#64748b;
+  --seller-shadow:0 18px 50px rgba(7,26,51,.12);
+}
+html{background:var(--seller-bg)}
+body{
+  margin:0!important;
+  background:linear-gradient(180deg,#eef5fd 0,#f8fbff 520px)!important;
+  color:var(--seller-text)!important;
+  font-family:Inter,Segoe UI,Arial,sans-serif!important;
+  min-height:100vh;
+}
+body>header,.topbar{
+  max-width:none!important;
+  margin:0!important;
+  border-radius:0!important;
+  background:var(--seller-navy)!important;
+  box-shadow:0 12px 30px rgba(7,26,51,.19)!important;
+  padding:20px max(5vw,28px)!important;
+}
+body>header a,.topbar a{color:#fff!important}
+body>main,.wrap,.seller-page-shell{
+  width:min(1160px,calc(100% - 36px))!important;
+  margin:38px auto 64px!important;
+  padding:0!important;
+}
+.seller-hero{
+  background:linear-gradient(135deg,#082b5e,#071a33 64%,#0b3d91)!important;
+  color:#fff!important;
+  border-radius:26px!important;
+  padding:38px 42px!important;
+  margin:0 0 24px!important;
+  box-shadow:var(--seller-shadow)!important;
+  position:relative;
+  overflow:hidden;
+}
+.seller-hero:after{
+  content:"";
+  position:absolute;
+  width:280px;
+  height:280px;
+  right:-95px;
+  top:-130px;
+  border-radius:50%;
+  background:rgba(32,217,255,.16);
+}
+.seller-hero h1{margin:0 0 10px!important;font-size:clamp(32px,4vw,48px)!important;line-height:1.05!important;color:#fff!important}
+.seller-hero p{margin:0!important;max-width:760px;color:#dbeafe!important;font-size:17px!important;line-height:1.65!important}
+.seller-eyebrow{display:inline-block;margin-bottom:14px;padding:7px 11px;border-radius:999px;background:#dff7ff;color:#075985;font-size:11px;font-weight:900;letter-spacing:1.1px;text-transform:uppercase}
+.seller-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(280px,.75fr);gap:24px;align-items:start}
+.seller-panel,body main form,.seller-action-panel{
+  background:var(--seller-card)!important;
+  border:1px solid var(--seller-line)!important;
+  border-radius:22px!important;
+  padding:28px!important;
+  box-shadow:0 12px 36px rgba(7,26,51,.09)!important;
+}
+.seller-panel h2,.seller-action-panel h2,body main h2{margin:0 0 10px!important;font-size:24px!important;color:var(--seller-text)!important}
+.seller-panel p,.seller-action-panel p{color:var(--seller-muted);line-height:1.6}
+.seller-form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.seller-form-grid .full{grid-column:1/-1}
+label{font-size:13px!important;font-weight:800!important;color:#334155!important}
+input,select,textarea{
+  width:100%!important;
+  box-sizing:border-box!important;
+  border:1px solid #cbd8e8!important;
+  border-radius:12px!important;
+  padding:13px 14px!important;
+  background:#fff!important;
+  color:var(--seller-text)!important;
+  font-size:15px!important;
+  outline:none!important;
+  transition:border-color .18s,box-shadow .18s!important;
+}
+input:focus,select:focus,textarea:focus{border-color:var(--seller-blue)!important;box-shadow:0 0 0 4px rgba(11,99,246,.12)!important}
+input[type=checkbox]{width:18px!important;height:18px!important;padding:0!important;accent-color:var(--seller-blue)}
+button,.btn,.seller-action{
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  min-height:44px!important;
+  border:0!important;
+  border-radius:12px!important;
+  padding:12px 18px!important;
+  background:linear-gradient(135deg,var(--seller-blue),#0849b8)!important;
+  color:#fff!important;
+  font-weight:900!important;
+  text-decoration:none!important;
+  cursor:pointer!important;
+  box-shadow:0 10px 24px rgba(11,99,246,.22)!important;
+}
+button:hover,.btn:hover,.seller-action:hover{transform:translateY(-1px);filter:brightness(1.04)}
+.seller-note{padding:14px 16px;border-left:4px solid var(--seller-cyan);border-radius:12px;background:#effaff;color:#164e63;line-height:1.55}
+.seller-steps{display:grid;gap:12px;margin-top:18px}
+.seller-step{display:grid;grid-template-columns:34px 1fr;gap:12px;align-items:start;padding:14px;border:1px solid var(--seller-line);border-radius:14px;background:#fbfdff}
+.seller-step b:first-child{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:#dbeafe;color:#0754c7}
+.seller-actions-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:24px 0}
+.seller-action-card{background:#fff;border:1px solid var(--seller-line);border-radius:20px;padding:22px;box-shadow:0 10px 30px rgba(7,26,51,.08)}
+.seller-action-card h3{font-size:19px;margin:0 0 8px}.seller-action-card p{min-height:48px;margin:0 0 18px;color:var(--seller-muted);line-height:1.5}
+.seller-status{display:inline-flex;padding:6px 9px;border-radius:999px;background:#dcfce7;color:#166534;font-size:11px;font-weight:900;letter-spacing:.7px}
+.seller-footer,body>footer{width:min(1160px,calc(100% - 36px));margin:0 auto 30px!important;text-align:center!important;color:var(--seller-muted)!important}
+@media(max-width:850px){.seller-grid,.seller-actions-grid{grid-template-columns:1fr}.seller-form-grid{grid-template-columns:1fr}.seller-hero{padding:30px 24px!important}}
+</style>
+</head><body><header class="topbar"><div class="brand"><a href="index.html">Software Tools Marketplace</a><span>Practical Software Tools for Real-World Technical Work</span></div><nav class="nav"><a href="products.html">Products</a><a href="seller-register.html">Register Seller</a><a href="seller-dashboard.html">Seller</a><a href="admin-dashboard.html">Admin</a></nav></header><main class="wrap"><section class="hero"><h1>Register as Seller</h1><p>Seller accounts are pending until approved by admin.</p></section><div class="split"><div class="card"><h3>Seller Details</h3><input id="sellerName" placeholder="Seller / business name"><input id="contactName" placeholder="Contact name"><input id="sellerEmail" placeholder="Seller email"><input id="sellerPassword" type="password" placeholder="Password"><label><input id="termsAccepted" type="checkbox" style="width:auto"> I accept seller terms, refund policy and 5% platform fee.</label><button onclick="submitSellerRegistration()">Submit Seller Application</button></div><div class="card"><h3>Payout Details</h3><select id="payoutMethod"><option>Manual EFT</option><option>PayFast / merchant review later</option></select><input id="bankName" placeholder="Bank name"><input id="accountHolder" placeholder="Account holder"><input id="accountNumber" placeholder="Account number / payout reference"><div class="notice">MVP payout mode: buyer pays marketplace, platform keeps 5%, seller balance is tracked for manual payout.</div></div></div></main><footer class="footer"><a href="terms.html">Terms</a> Â· <a href="privacy.html">Privacy</a> Â· <a href="refund-policy.html">Refund Policy</a> Â· Software Tools Marketplace Build20</footer><script src="app.js?v=46.1.8"></script><script id="seller-register-layout-v1">
+document.addEventListener('DOMContentLoaded',function(){
+  var body=document.body;
+  var header=body.querySelector('header,.topbar');
+  var footer=body.querySelector('footer,.footer');
+  var nodes=Array.from(body.children).filter(function(n){return n!==header&&n!==footer&&n.tagName!=='SCRIPT';});
+  var shell=document.createElement('main');shell.className='seller-page-shell';
+  var hero=document.createElement('section');hero.className='seller-hero';hero.innerHTML='<span class="seller-eyebrow">SELL ON THE MARKETPLACE</span><h1>Register as a Seller</h1><p>Create a verified seller account, publish practical products and manage listings from one professional workspace.</p>';
+  shell.appendChild(hero);
+  var grid=document.createElement('section');grid.className='seller-grid';
+  var panel=document.createElement('div');panel.className='seller-panel';
+  nodes.forEach(function(n){panel.appendChild(n)});
+  var side=document.createElement('aside');side.className='seller-action-panel';side.innerHTML='<span class="seller-status">SELLER ONBOARDING</span><h2>How selling works</h2><div class="seller-steps"><div class="seller-step"><b>1</b><div><b>Register</b><br><span>Submit business, contact and payout details.</span></div></div><div class="seller-step"><b>2</b><div><b>Admin review</b><br><span>The marketplace reviews and approves the seller account.</span></div></div><div class="seller-step"><b>3</b><div><b>List products</b><br><span>Create listings, upload packages and submit for approval.</span></div></div><div class="seller-step"><b>4</b><div><b>Sell and track</b><br><span>Approved products go live and seller balances are recorded.</span></div></div></div><p class="seller-note">The marketplace retains the configured platform fee. Seller payouts remain subject to approval and payout verification.</p>';
+  grid.appendChild(panel);grid.appendChild(side);shell.appendChild(grid);
+  if(footer){body.insertBefore(shell,footer)}else{body.appendChild(shell)}
+  var form=panel.querySelector('form');if(form){form.classList.add('seller-form-grid')}
+});
+</script>
+</body></html>
+
 
 
 
