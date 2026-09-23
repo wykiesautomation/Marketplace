@@ -175,7 +175,9 @@ document.addEventListener('DOMContentLoaded',function(){
     {title:'Operations & Business',code:'OPS'}
   ];
   guideCards.forEach(function(item){
-    var title=exactText('h2,h3,h4,strong,b',item.title);
+    var guideArea=document.querySelector('.domain-grid');
+    if(!guideArea) return;
+    var title=Array.from(guideArea.querySelectorAll('h2,h3,h4,strong,b')).find(function(el){return (el.textContent||'').trim()===item.title});
     if(!title) return;
     var card=title.closest('article,a') || title.parentElement;
     if(!card) return;
