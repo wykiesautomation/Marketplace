@@ -1,0 +1,127 @@
+{
+  "build": "Build27-marketplace-price-description-alignment",
+  "date": "2026-09-29",
+  "sourceOfTruth": "Wykies Automation public catalogue screenshots supplied by owner",
+  "products": [
+    {
+      "name": "VisionEdge",
+      "priceZAR": 24999,
+      "description": "VisionEdge uses industrial cameras and production data to inspect material, measure products and monitor machine movement. Operators and engineers can manage camera setup, model training, controlled OPC UA integration, diagnostics and production evidence from one controlled platform."
+    },
+    {
+      "name": "PROFIBUS Connector: GSD Engineering Studio",
+      "priceZAR": 12999,
+      "description": "A safe engineering workspace for building and documenting PROFIBUS networks. Configure masters, gateways and field devices, work with GSD definitions, review process values and investigate communication quality without an uncontrolled physical write path."
+    },
+    {
+      "name": "Universal Modbus Device Engineering Platform",
+      "priceZAR": 14999,
+      "description": "Configure Modbus TCP and RTU connections, register devices, build register maps, decode data and monitor bounded read-only values. Templates, commissioning evidence, history, monitoring and field-acceptance workflows are managed in one platform."
+    },
+    {
+      "name": "WA Hybrid Alarm",
+      "priceZAR": 3999,
+      "description": "Hybrid alarm management platform with local operation, configuration, event visibility and field-ready security workflows."
+    },
+    {
+      "name": "WA 3D Printer Production GUI",
+      "priceZAR": 2499,
+      "description": "Production-focused interface for practical 3D-printer operation, machine setup, job control and workshop monitoring."
+    },
+    {
+      "name": "Battery Charger Control Studio",
+      "priceZAR": 1499,
+      "description": "Focused charger-control workspace for battery monitoring, configuration, diagnostics and technical testing."
+    },
+    {
+      "name": "Device Engineering Studio",
+      "priceZAR": 8999,
+      "description": "Capability-aware engineering studio for verified board profiles, safe I/O selection, firmware compatibility and commissioning."
+    },
+    {
+      "name": "Wykies DriveBench ECU+TCU Suite",
+      "priceZAR": 8999,
+      "description": "Integrated ECU and TCU test-bench suite for serial diagnostics, configuration and controlled vehicle-system development."
+    },
+    {
+      "name": "Cold Storage Monitoring System",
+      "priceZAR": 2499,
+      "description": "Practical freezer and cold-storage monitoring with clear equipment status, alarms and operational visibility."
+    },
+    {
+      "name": "WA Gate Controller",
+      "priceZAR": 2999,
+      "description": "Complete gate-control platform with responsive local HMI, live operation, configuration and controlled access workflows."
+    },
+    {
+      "name": "Hardware Bench",
+      "priceZAR": 4999,
+      "description": "Structured hardware test-bench environment for equipment checks, I/O validation, diagnostics and commissioning records."
+    },
+    {
+      "name": "HMI & SCADA Studio",
+      "priceZAR": 12999,
+      "description": "Professional workspace for industrial HMI and SCADA screens, reusable objects and practical operator workflows."
+    },
+    {
+      "name": "LoopPilot",
+      "priceZAR": 9999,
+      "description": "Loop-readiness, instrument-validation and PID-advisory platform for control-loop assessment and improvement."
+    },
+    {
+      "name": "WA Nano GSM Gate & Garage Remote",
+      "priceZAR": 1799,
+      "description": "GSM gate and garage remote package with authorised access, status control and field-ready firmware workflows."
+    },
+    {
+      "name": "OT Asset Assurance",
+      "priceZAR": 14999,
+      "description": "Modular OT assurance platform for asset inventory, audit readiness, governance evidence and operational risk visibility."
+    },
+    {
+      "name": "OT Scanner",
+      "priceZAR": 6999,
+      "description": "Focused OT discovery and scanning utility for controlled network visibility, device identification and technical review."
+    },
+    {
+      "name": "Plasma Cutter Control Studio",
+      "priceZAR": 2499,
+      "description": "Practical control and monitoring interface for plasma-cutter setup, job workflows and workshop operation."
+    },
+    {
+      "name": "ProcessScope Studio",
+      "priceZAR": 8999,
+      "description": "Process and instrumentation analysis workspace for engineering review and structured technical investigation."
+    },
+    {
+      "name": "Rockwell Build Studio",
+      "priceZAR": 14999,
+      "description": "Capability-aware Rockwell engineering studio for controller-aligned blocks, I/O structures and buildable deliverables."
+    },
+    {
+      "name": "Security Guard",
+      "priceZAR": 3999,
+      "description": "Operational security-monitoring platform with event visibility, routine checks and controlled response workflows."
+    },
+    {
+      "name": "SEMS",
+      "priceZAR": 6999,
+      "description": "Structured engineering-management system for technical work, equipment records and workflow control."
+    },
+    {
+      "name": "Sign Tool",
+      "priceZAR": 999,
+      "description": "Focused sign-design and production utility for practical layouts, job details and workshop-ready outputs."
+    },
+    {
+      "name": "TCU Gearbox Studio",
+      "priceZAR": 5999,
+      "description": "Transmission-control engineering interface for gearbox diagnostics, TCU testing and controlled configuration."
+    },
+    {
+      "name": "VM Deployment & Recovery Command Center",
+      "priceZAR": 8999,
+      "description": "Professional command center for VM build, inventory, backup, restore and disaster-recovery readiness."
+    }
+  ]
+}
