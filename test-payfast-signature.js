@@ -1,0 +1,1 @@
+const pf=require('../src/payments/payfast');const input={merchant_id:'10000100',amount_gross:'249.00',payment_status:'COMPLETE'};input.signature=pf.signature(input);console.log(JSON.stringify({ok:pf.validateITN(input,249).ok,input,signature:input.signature},null,2));
